@@ -1,0 +1,5 @@
+[[invariant]]
+kind = "schema"
+id = "limits"
+producer = "github:Ramesh-35/invar-demo-api@5fe78d76f2efdf636db8db44ba02d17a73d13f36:src/limits.ts"
+consumer = "src/use.ts"

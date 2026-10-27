@@ -1,0 +1,21 @@
+# invar.lock: the producer fields this repository depends on.
+# Written by `invar lock`. Accept a reviewed producer change with
+# `invar lock --update`. Waivers are written by hand and kept.
+
+[lock]
+format = "1"
+
+[[contract]]
+id = "limits"
+producer = "github:Ramesh-35/invar-demo-api@5fe78d76f2efdf636db8db44ba02d17a73d13f36:src/limits.ts"
+blake3 = "ae219e153b109533b3c0645299c29c4919a6233eae01dfa8076f4a84eb348c8e"
+recorded_at = "2026-10-27T08:56:01Z"
+bind = "code 2026-10-27 maxBytes ?"
+bind = "code 2026-10-27 maxLines ?"
+bind = "code 2026-10-27 Limits.maxBytes number"
+bind = "code 2026-10-27 Limits.maxLines number"
+members = "code - maxBytes maxLines"
+members = "code Limits maxBytes maxLines"
+held = "2026-10-27T08:56:01Z 0.1.0-alpha.29-8ebbfebd5fc194af21fdd81218637ca44a8ea1585f0c984692976792a727f47a 303b30cb6dd8059d2bc81983ac95e8e3988012061ef00fac9179e729fffcec69 989be933761a77d55731a0f8f9aa2df87e4e7d93d22ce20ba162d939eeb9ae71"
+held_input = "ae219e153b109533b3c0645299c29c4919a6233eae01dfa8076f4a84eb348c8e github:Ramesh-35/invar-demo-api@5fe78d76f2efdf636db8db44ba02d17a73d13f36:src/limits.ts"
+held_input = "a4ac82c0d5be30d79bad1781d4d0dcff6693bff5f752ab469fc60239e0c9edb5 src/use.ts"
